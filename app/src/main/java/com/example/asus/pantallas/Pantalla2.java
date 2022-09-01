@@ -18,7 +18,7 @@ public class Pantalla2 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pantalla2);
 
-        Visual = (TextView) findViewById(R.id.Visual);
+        Visual = (TextView) findViewById(R.id.Visual);  //Texto para visualizar
 
         Intent intent = getIntent(); //Obtengo los datos del intent
         Bundle extras = intent.getExtras(); //los datos obtenidos se guardan en extra
