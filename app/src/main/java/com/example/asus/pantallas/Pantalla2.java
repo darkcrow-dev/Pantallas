@@ -25,7 +25,7 @@ public class Pantalla2 extends AppCompatActivity {
 
         if(extras != null)
         {
-            String dato = extras.getString("DATO");
+            String dato = extras.getString("DATO"); //String para visualizar el dato
             Visual.setText(dato);
         }
 
