@@ -37,7 +37,7 @@ public class Pantalla2 extends AppCompatActivity {
             {
                         //Paso de la actividad 2 a la 3
                         Intent intent = new Intent(Pantalla2.this, Main2Activity.class); //Una Intent es un objeto de acción que puedes usar para solicitar una acción de otro componente de la aplicación.
-                        intent.putExtra("OTRODATO", "La verdad No"); //Pone al intent ademas de lo declarado, algo mas
+                        intent.putExtra("OTRODATO", "OTRA PANTALLA"); //Pone al intent ademas de lo declarado, algo mas
                         startActivity(intent); //empieza la activity
                         //finish();
             }
