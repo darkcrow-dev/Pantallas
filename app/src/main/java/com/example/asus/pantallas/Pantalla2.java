@@ -26,7 +26,7 @@ public class Pantalla2 extends AppCompatActivity {
         if(extras != null)
         {
             String dato = extras.getString("DATO"); //String para visualizar el dato
-            Visual.setText(dato);
+            Visual.setText(dato);   //Variable para poner el texto
         }
 
         Boton1 = (Button)findViewById(R.id.OtraPantalla);
